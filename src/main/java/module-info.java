@@ -1,8 +1,8 @@
-module com.example.tp4_201731449 {
+module org.calma.TP4 {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.tp4_201731449 to javafx.fxml;
-    exports com.example.tp4_201731449;
+    opens org.calma.TP4 to javafx.fxml;
+    exports org.calma.TP4;
 }
